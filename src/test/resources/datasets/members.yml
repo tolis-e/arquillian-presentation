@@ -1,0 +1,9 @@
+member:
+  - id: 1
+    name: "John Smith"
+    email: "johnsmith@mailinator.com"
+    phone_number: "1234567890"
+  - id: 2
+    name: "Kelly Smith"
+    email: "kellysmith@mailinator.com"
+    phone_number: "1234567890"
