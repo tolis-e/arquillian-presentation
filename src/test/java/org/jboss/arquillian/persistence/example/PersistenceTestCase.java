@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jboss.arquillian.example;
+package org.jboss.arquillian.persistence.example;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -40,7 +40,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(Arquillian.class)
-public class ArquillianPersistenceTestCase {
+public class PersistenceTestCase {
 
     @Deployment
     public static Archive<?> createDeployment() {
