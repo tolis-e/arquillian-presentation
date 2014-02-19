@@ -22,7 +22,7 @@ import static org.jboss.arquillian.graphene.Graphene.waitGui;
 import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
-import org.jboss.arquillian.droidium.web.model.Task;
+import org.jboss.arquillian.droidium.model.Task;
 import org.jboss.arquillian.graphene.findby.FindByJQuery;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

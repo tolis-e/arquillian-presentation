@@ -19,8 +19,8 @@ package org.jboss.arquillian.droidium.web.page;
 import static org.jboss.arquillian.graphene.Graphene.guardAjax;
 import static org.jboss.arquillian.graphene.Graphene.waitGui;
 
-import org.jboss.arquillian.droidium.web.model.Project;
-import org.jboss.arquillian.droidium.web.model.Task;
+import org.jboss.arquillian.droidium.model.Project;
+import org.jboss.arquillian.droidium.model.Task;
 import org.jboss.arquillian.droidium.web.page.fragments.ProjectWebFragment;
 import org.jboss.arquillian.droidium.web.page.fragments.TaskWebFragment;
 import org.openqa.selenium.WebElement;

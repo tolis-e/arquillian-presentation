@@ -16,7 +16,7 @@
  */
 package org.jboss.arquillian.droidium.mobile.page;
 
-import org.jboss.arquillian.droidium.web.model.Task;
+import org.jboss.arquillian.droidium.model.Task;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
