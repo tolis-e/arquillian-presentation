@@ -20,7 +20,7 @@ import org.jboss.arquillian.droidium.web.model.Task;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class TaskMobilePage extends MobilePage {
+public class TaskMobilePage extends MainMobilePage {
 
     @FindBy(id = "name")
     private WebElement name;

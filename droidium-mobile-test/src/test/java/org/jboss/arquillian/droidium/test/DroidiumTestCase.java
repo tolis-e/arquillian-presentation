@@ -48,7 +48,7 @@ import org.openqa.selenium.WebDriver;
 
 @RunWith(Arquillian.class)
 @RunAsClient
-public class AeroGearTestCase {
+public class DroidiumTestCase {
 
     @Drone
     @Browser

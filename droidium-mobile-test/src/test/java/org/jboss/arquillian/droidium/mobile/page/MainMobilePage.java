@@ -19,10 +19,31 @@ package org.jboss.arquillian.droidium.mobile.page;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public abstract class MobilePage {
+public abstract class MainMobilePage {
+
+    @FindBy(id = "menu_item_project")
+    private WebElement projects;
+
+    @FindBy(id = "menu_item_tag")
+    private WebElement tags;
+
+    @FindBy(id = "menu_item_task")
+    private WebElement tasks;
 
     @FindBy(id = "menu_logout")
     private WebElement logoutButton;
+
+    public void goToTags() {
+        tags.click();
+    }
+
+    public void goToProjects() {
+        tags.click();
+    }
+
+    public void gotToTasks() {
+        tasks.click();
+    }
 
     public void logout() {
         logoutButton.click();
