@@ -51,7 +51,7 @@ public class GrapheneTestCase {
     @Test
     public void menuNavigation(@InitialPage IndexPage indexPage) {
         indexPage.waitUntilPageIsLoaded();
-        indexPage.getTopMenu().navigateToEvents();
+        indexPage.getTopMenu().navigateToEventsPage();
         eventsPage.waitUntilPageIsLoaded();
     }
 }

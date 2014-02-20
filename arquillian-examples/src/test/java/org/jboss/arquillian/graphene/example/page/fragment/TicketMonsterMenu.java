@@ -32,15 +32,15 @@ public class TicketMonsterMenu {
     @FindByJQuery("ul.nav li:eq(3) a")
     private WebElement bookingsLink;
 
-    public void navigateToEvents() {
+    public void navigateToEventsPage() {
         guardAjax(eventsLink).click();
     }
 
-    public void navigateToVenues() {
+    public void navigateToVenuesPage() {
         guardAjax(venuesLink).click();
     }
 
-    public void navigateToBookings() {
+    public void navigateToBookingsPage() {
         guardAjax(bookingsLink).click();
     }
 }
