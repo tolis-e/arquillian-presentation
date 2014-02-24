@@ -82,6 +82,7 @@ public class PersistenceTestCase {
         assertEquals("Second Member is Kelly", "Kelly Smith", members.get(1).getName());
     }
 
+    // set insequence
     /*@Test
     @ShouldMatchDataSet("datasets/members.yml")
     @Transactional(value = TransactionMode.COMMIT)
